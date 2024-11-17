@@ -1,0 +1,327 @@
+body {
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Alegreya Sans", system-ui;
+    margin: 0;
+    padding: 0;
+}
+.style-head{
+    color: #303030;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.home {
+    background-image: url(../img/drew-coffman-1872.jpg);
+    color: white;
+    background-size: cover;
+    width: 100%;
+    height: 135%;
+    overflow: auto;
+}
+
+.logo {
+    margin: 30px 0 0 70px;
+    width: 45%;
+    display: inline-block;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.navbar {
+    padding-left: 150px;
+    display: inline-block;
+}
+
+.navbar p {
+    margin: 0 15px 0 15px;
+    display: inline;
+}
+
+.content1 h1 {
+    line-height: 91px;
+    font-size: 76px;
+    font-weight: 400;
+    font-family: "Alegreya", serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px 0 15px;
+    display: inline;
+}
+
+.content1 {
+    font-size: 20px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#button-1 {
+    font-weight: bold;
+    color: white;
+    background-color: #8E7754;
+    padding: 15px 20px;
+    margin-right: 10px;
+    border: #8E7754 solid 1px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+#button-2 {
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    padding: 15px 20px;
+    margin-left: 10px;
+    border: white solid 2px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+#button-3 {
+    color: #CEC7C5;
+    font-size: 20px;
+    background-color: transparent;
+    border: #CEC7C5 solid 1.5px;
+    margin-top: 70px;
+    border-radius: 10px;
+    padding: 10px 7.5px;
+}
+
+.WhoWeAre {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    overflow: auto;
+}
+
+.WhoWeAre p {
+    color: rgb(104, 104, 104);
+}
+
+.content2 {
+    width: 46%;
+    float: left;
+    padding-top: 10px;
+}
+
+.des {
+    float: left;
+    margin-left: 10px;
+}
+
+.clr {
+    clear: both;
+}
+
+
+.icon {
+    width: 7%;
+    float: left;
+    border: #CEC7C5 solid 0.5px;
+    border-radius: 30px;
+    margin-bottom: 12px;
+}
+
+.image1 {
+    margin-left: 20px;
+    padding: 0 60px;
+    width: 40%;
+    float: left;
+
+}
+
+.WhoWeAre .image1 img {
+    width: 100%;
+}
+
+.location {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+}
+
+.content3 {
+    width: 40%;
+    float: left;
+    padding-top: 10px;
+    padding: 50px 60px 50px 60px;
+    margin: 100px 0;
+}
+
+.content3 p {
+    color: #686868;
+}
+
+
+
+.image2 {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+
+.image2 img {
+    width: 80%;
+}
+
+.our-backing {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin-bottom: 200px;
+}
+
+
+
+.our-backing p {
+    font-size: 17px;
+    color:rgb(104, 104, 104);
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.first-content {
+    text-align: center;
+}
+
+.sec-content {
+    margin-top: 70px ;
+    width: 100%;
+    text-align: center;
+}
+
+.sec-content .sec {
+    width: 26.5%;
+    display: inline-block;
+}
+.sec-content .sec h3{
+    margin-top: 30px;
+}
+
+.padd{
+    padding: 0 3%;
+}
+
+.sec-content .sec img {
+    width: 100%;
+}
+
+.icon-2{
+    background-color: #8E7754;
+    width: 7%;
+    float: left;
+    border: #CEC7C5 solid 0.5px;
+    border-radius: 30px;
+    margin-bottom: 12px;
+    margin-right: 15px;
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: #F8F8F8;
+    overflow: hidden;
+}
+
+.content4{
+    width: 38%;
+    float: left;
+    padding: 70px;
+}
+.content4 p{
+    size: 17px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.image3{
+    width: 38%;
+    float: left;
+    margin: 140px 0 0 50px;
+}
+
+.image3 img{
+    width: 100%;
+}
+
+.about{
+    width: 87%;
+    background-color: #403D38;
+    color: rgb(150, 150, 150);
+    padding: 40px 6.5%;
+    height: 60%;
+}
+.about p{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.about h3{
+    color: #F2F2F2;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.about .final-section{
+    width: 24%;
+    float: left;
+    padding: 5px;
+}
+
+#bg{
+    background-image: url(../img/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-3{
+    padding: 6px 2px 0 0;
+    width: 8%;
+    float: left;
+    margin-bottom: 12px;
+    margin-right: 5px;
+}
+
+.icon-4{
+    padding-top: 3px;
+    width: 10%;
+    float: left;
+    margin-bottom: 12px;
+    margin-right: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 55%;
+    background-color: #353330;
+    text-align: center;
+    overflow: auto;
+}
+.footer .logo-2{
+    margin: 60px 0 40px 0;
+}
+.footer .logo-2 p{
+    font-size: 15px;
+    line-height: 28px;
+    color: rgb(119, 119, 119);
+}
+.icons{
+    text-align: center;
+}
+.icons img{
+    width: 3%;
+    background-color: #484540;
+    border: #484540 solid 0.5px;
+    border-radius: 30px;
+    margin-bottom: 12px;
+    margin-right: 5px;
+}
